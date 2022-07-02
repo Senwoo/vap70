@@ -1,0 +1,37 @@
+{
+	"name": "Envo Extra",
+	"version": "1.1",
+	"download_url": "http://enwoo-wp.com/wp-content/uploads/theme-update/envo-extra1-1.zip",
+
+	"homepage": "http://enwoo-wp.com/",
+	"requires": "4.5",
+	"tested": "5.7.2",
+	"last_updated": "2021-07-07 16:17:00",
+	"upgrade_notice": "Here's why you should upgrade...",
+
+	"author": "EnvoThemes",
+	"author_homepage": "http://envothemes.com/",
+
+	"sections": {
+		"description": "Extra addon for EnvoThemes WooCommerce Theme",
+		"installation": "(Recommended) Installation instructions.",
+		"changelog": "(Recommended) Changelog. <p>This section will be displayed by default when the user clicks 'View version x.y.z details'.</p>"
+	},
+	
+	"icons" : {
+		"1x" : "http://enwoo-wp.com/wp-content/uploads/theme-update/img/icon-128x128.png",
+		"2x" : "http://enwoo-wp.com/wp-content/uploads/theme-update/img/icon-256x256.png"
+    },
+
+	"banners": {
+		"low": "http://enwoo-wp.com/wp-content/uploads/theme-update/img/banner-772x250.png",
+		"high": "http://enwoo-wp.com/wp-content/uploads/theme-update/img/banner-1544x500.png"
+	},
+
+
+	"rating": 90,
+	"num_ratings": 123,
+
+	"downloaded": 1234,
+	"active_installs": 12345
+}

@@ -1,0 +1,3 @@
+2022-02-08T15:35:32+00:00 INFO Default value changed for 'date' column to '1000-01-01 00:00:00' on database table: wp_wcpdf_invoice_number
+2022-02-08T15:35:33+00:00 CRITICAL Table 'wordpressdb.wp_wcpdf_packing_slip_number' doesn't exist
+2022-02-08T15:35:34+00:00 INFO Default value changed for 'date' column to '1000-01-01 00:00:00' on database table: wp_wcpdf_packing_slip_number

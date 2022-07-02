@@ -1,0 +1,929 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 09:28:26
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.3                                 |7.4.3
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-02-09 21:02:53
+WP VERSION__________: 5.9
+DUP VERSION_________: 1.4.4
+DB__________________: 8.0.28
+DB TABLES___________: 89
+DB ROWS_____________: 7,014
+DB FILE SIZE________: 10.91MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Ubuntu)
+DOC ROOT____________: "/var/www/html/vap70"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://192.168.1.114/vap70/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/html/vap70/20211214_vap70_[HASH]_20220209210253_archive.zip"
+SIZE________________: 85.99MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:28:29 - RUNTIME: 2.9804 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:31:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.29 -- Build Server: 8.0.28
+FILE SIZE:	dup-database__[HASH].sql (4.31MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/html/vap70/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	99
+RENAMED TABLES:	0
+QUERIES RAN:	762
+
+wp_actionscheduler_actions: (97)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (5)
+wp_actionscheduler_logs: (291)
+wp_addonlibrary_addons: (0)
+wp_addonlibrary_categories: (0)
+wp_admin_columns: (0)
+wp_commentmeta: (0)
+wp_comments: (9)
+wp_duplicator_packages: (0)
+wp_gla_budget_recommendations: (4230)
+wp_gla_merchant_issues: (0)
+wp_gla_shipping_rates: (0)
+wp_gla_shipping_times: (0)
+wp_links: (0)
+wp_litespeed_url: (0)
+wp_litespeed_url_file: (0)
+wp_mailpoet_custom_fields: (0)
+wp_mailpoet_dynamic_segment_filters: (0)
+wp_mailpoet_feature_flags: (0)
+wp_mailpoet_forms: (0)
+wp_mailpoet_log: (0)
+wp_mailpoet_mapping_to_external_entities: (0)
+wp_mailpoet_newsletter_links: (0)
+wp_mailpoet_newsletter_option: (0)
+wp_mailpoet_newsletter_option_fields: (22)
+wp_mailpoet_newsletter_posts: (0)
+wp_mailpoet_newsletter_segment: (0)
+wp_mailpoet_newsletter_templates: (76)
+wp_mailpoet_newsletters: (0)
+wp_mailpoet_scheduled_task_subscribers: (0)
+wp_mailpoet_scheduled_tasks: (31)
+wp_mailpoet_segments: (3)
+wp_mailpoet_sending_queues: (0)
+wp_mailpoet_settings: (17)
+wp_mailpoet_statistics_bounces: (0)
+wp_mailpoet_statistics_clicks: (0)
+wp_mailpoet_statistics_forms: (0)
+wp_mailpoet_statistics_newsletters: (0)
+wp_mailpoet_statistics_opens: (0)
+wp_mailpoet_statistics_unsubscribes: (0)
+wp_mailpoet_statistics_woocommerce_purchases: (0)
+wp_mailpoet_stats_notifications: (0)
+wp_mailpoet_subscriber_custom_field: (0)
+wp_mailpoet_subscriber_ips: (0)
+wp_mailpoet_subscriber_segment: (3)
+wp_mailpoet_subscribers: (2)
+wp_mailpoet_user_agents: (0)
+wp_mailpoet_user_flags: (0)
+wp_options: (647)
+wp_postmeta: (863)
+wp_posts: (169)
+wp_stock_log: (0)
+wp_term_relationships: (36)
+wp_term_taxonomy: (30)
+wp_termmeta: (22)
+wp_terms: (30)
+wp_usermeta: (119)
+wp_users: (3)
+wp_wc_admin_note_actions: (48)
+wp_wc_admin_notes: (46)
+wp_wc_category_lookup: (6)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (2)
+wp_wc_order_stats: (2)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (14)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_wcpdf_invoice_number: (1)
+wp_wcpdf_packing_slip_number: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (18)
+wp_woocommerce_order_items: (2)
+wp_woocommerce_payment_tokenmeta: (4)
+wp_woocommerce_payment_tokens: (1)
+wp_woocommerce_sessions: (2)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '247' cache/transient rows
+
+INSERT DATA RUNTIME: 233.9294 sec.
+STEP-2 COMPLETE @ 09:35:37 - RUNTIME: 233.9555 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:35:43
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Vap70"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/html/wordpress"
+path_new______________: "/var/www/html/vap70"
+siteurl_______________: "http://192.168.1.114/vap70"
+url_old_______________: "http://wordpress.laurentlebarbier.fr"
+url_new_______________: "http://192.168.1.114/vap70"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    97][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   291][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_addonlibrary_addons"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_addonlibrary_categories"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_admin_columns"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_budget_recommendations"___________________[ROWS:  4230][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_gla_merchant_issues"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_rates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_times"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url_file"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_mapping_to_external_entities"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option_fields"____________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_templates"________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_newsletters"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_sending_queues"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_settings"____________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_statistics_bounces"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_segment"__________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_subscribers"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_mailpoet_user_agents"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_flags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   647][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   863][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   169][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_stock_log"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   119][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    46][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcpdf_invoice_number"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_wcpdf_packing_slip_number"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  2:"\/var\/www\/html\/wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  4:"\var\www\html\wordpress" =========================> "/var/www/html/vap70"
+	SEARCH  5:"\\var\\www\\html\\wordpress" =====================> "\/var\/www\/html\/vap70"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress" =================> "%2Fvar%2Fwww%2Fhtml%2Fvap70"
+	SEARCH  7:"//wordpress.laurentlebarbier.fr" =================> "//192.168.1.114/vap70"
+	SEARCH  8:"\/\/wordpress.laurentlebarbier.fr" ===============> "\/\/192.168.1.114\/vap70"
+	SEARCH  9:"%2F%2Fwordpress.laurentlebarbier.fr" =============> "%2F%2F192.168.1.114%2Fvap70"
+	SEARCH 10:"https://192.168.1.114/vap70" =====================> "http://192.168.1.114/vap70"
+	SEARCH 11:"https:\/\/192.168.1.114\/vap70" ==================> "http:\/\/192.168.1.114\/vap70"
+	SEARCH 12:"https%3A%2F%2F192.168.1.114%2Fvap70" =============> "http%3A%2F%2F192.168.1.114%2Fvap70"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:89 	|	 Rows:6854 	|	 Cells:38086 
+UPDATED:	Tables:6 	|	 Rows:270 	|	 Cells:309 
+ERRORS:		0 
+RUNTIME:	1.079700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:35:44 - RUNTIME: 1.3503 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
